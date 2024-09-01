@@ -14,7 +14,7 @@ Docker
 
 2. Start kafka broker:
 
-`docker run -d --name broker apache/kafka:latest`
+`docker run -d -p 9092:9092 --name broker apache/kafka:latest`
 
 3. Run Spring Boot Application directly from any IDE or from cmd by running jar file
 4. Run below command to publish message on the topic created above:
