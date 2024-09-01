@@ -3,7 +3,9 @@ Sample Program Using Kafka Spring Boot
 
 # Framework and Language Used:
 Java 21
-Spring Boot 3.3.3
+
+Spring Boot 3
+
 Docker
 
 
