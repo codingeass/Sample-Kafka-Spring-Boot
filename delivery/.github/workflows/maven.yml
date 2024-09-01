@@ -27,10 +27,8 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Configure Git Safe Directory
-      run: git config --global --add safe.directory /home/runner/work/Sample-Kafka-Spring-Boot/Sample-Kafka-Spring-Boot/delivery
     - name: Build with Maven
-      run: mvn -B package --file delivery/pom.xml
+      run: mvn -B package --file pom.xml
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
